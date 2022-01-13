@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.wrapper{
+    margin: 70px;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid black ;
+
+}
+h1{
+    color: #674e4e;
+    cursor: pointer;
+    font-size:300%;
+    margin: 50px;
+    font-family: "Bodoni MT Condensed";
+}
+h1:hover{
+    color: #a16324;
+    font-size: 500%;
+    font-family: "Fira Code Medium";
+}
+p{
+    color: #b72a2a;
+    cursor: pointer;
+    font-size: 200%;
+    margin: 30px;
+    font-style: italic;
+    border-bottom: 1px solid;
+}
+
+p:hover {
+    color: #500842;
+    cursor: pointer;
+    font-size: 250%;
+
+}
+
+
